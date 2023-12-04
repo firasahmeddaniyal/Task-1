@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color:gray;
+    /* overflow: scroll; */
+}
+
+.nav {
+    width: 100%;
+    height: 6%;
+    position: absolute;
+    background-color: #8080806b;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-items {
+    width: 150px;
+    height: 85%;
+    color: black;
+    font-size: 20px;
+    font-family: "nova square";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-items:hover {
+    background-color: #e2c9c99c;
+    color: white;
+    border-radius: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.banner {
+    height: max-content;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    bottom: 18%;
+    left: 5%;
+    width: 75%;
+    height: 24%;
+    text-shadow: 55px 55px 70px;
+    /* background-color: #fb8b8b3b; */
+}
+.btn{
+    width:20%;
+    height: 30%;
+    border-radius: 12px;
+    margin-top: 18px;
+    font-size: 20px;
+    background-color: #2f9e35;
+    color: white;
+    font-family: "Poppins";
+    border: none;
+
+}
+
+.btn:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #268e26;
+    font-size: 21px;
+    /* box-shadow: 15px 15px 45px; */
+}
+
+.t1 {
+    font-size: 64px;
+    font-family: "Audiowide";
+    color: #fff700;
+}
+
+.t2 {
+    font-size: 18px;
+    font-family: "Audiowide";
+    color: #cdff28;
+}
+
+.banner img {
+    width: 100%;
+    height: fit-content;
+}
+
+.main-content {
+    height: 770px;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    font-style: "Poppins";
+}
+
+.content {
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: "Poppins";
+}
+
+.hd {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    height: max-content;
+    width: 95%;
+    font-family: "Audiowide";
+    color: #ffffff;
+}
+
+.bar1 {
+    /* position: relative; */
+    height: 4px;
+    background-color: #fff700;
+    border-radius: 50px;
+    
+}
+
+.cnt {
+    text-align: justify;
+    width: 90%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color:rgb(80, 80, 80);
+    padding: 20px;
+    border-radius: 14px;
+    color: white;
+    font-family: "Poppins";
+    
+
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    padding-top: 18px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    font-family: "poppins";
+    color: rgb(255, 255, 255);
+}
+
+
+.top {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    /* background-color: #fff; */
+}
+
+.about, .info, .med {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about {
+    width: 28%;
+    justify-content: center;
+    /* background-color: #ff0b0b; */
+}
+
+.info {
+    width: 20%;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.med {
+    width: 15%;
+    height: 100%;
+    justify-content: space-around;
+    /* background-color: red; */
+
+}
+
+.bar {
+    width: 65%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #cac5c5;
+}
+
+.cnt1,.cnt2,.cnt3 {
+    height: 86%;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    /* background-color: #810303; */
+    justify-content: start;
+    align-items: start;
+}
+
+.cnt2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.cnt3 {
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+.hd3,.hd2,.hd1 {
+    width: 100%;
+    height: 14%;
+    /* background-color: #dc8181; */
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
